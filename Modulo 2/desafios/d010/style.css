@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/idroid.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+
+body {
+    background-color: rgb(141, 238, 206);
+    text-align: justify;
+}
+
+p {
+    text-indent: 40px;
+}
+
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(to top, rgb(65, 148, 120) 50%, rgb(131, 190, 163));
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.397);
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    margin: 0px 0px 2px 0px;
+}
+
+h1 {
+    font-family: 'Agdasima', sans-serif;
+    padding: 30px 1px 2px 1px;
+    font-size: 2em;
+}
+
+h2 {
+    font-family: 'Android', Times, serif;
+    color: green;
+    font-size: 2em;
+}
+
+h3 {
+    font-family: 'Android', Times, serif;
+    color: green;
+    background-image: linear-gradient(to right, rgb(165, 228, 207), white);
+    font-size: 1.5em;
+}
+
+header > p {
+    padding: 1px 1px 5px 1px;
+}
+
+nav {
+    text-align: left;
+    color: white;
+    padding: 1px 1px 8px 1px;;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+    
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+div {
+    text-align: center;
+}
+
+article {
+    background-color: green;
+    margin: 15px -20px 15px -20px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+#extra {
+    background-color: rgb(176, 207, 197);
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(17, 63, 17);
+    color: white;
+    padding: 4px;
+    text-align: center;
+    margin: 15px 0px 15px 0px;
+}
+
+footer > p {
+    margin: 0px;
+}
