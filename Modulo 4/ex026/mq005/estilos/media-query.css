@@ -11,6 +11,11 @@
 
     menu > ul > li {
         display: inline-block;
+        
+    }
+
+    menu a {
+        border-radius: 10px;
     }
 
     main {
